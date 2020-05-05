@@ -54,11 +54,22 @@ npm install -g robbyrussell
 
 ## Development
 
+It's recomended to use a specific workspace folder e.g. `~/workspace`.
+
 ### Version your code with [Git](https://git-scm.com/)
 
+Install it by running :
 ```
 apt-get install git
 ```
+
+Add your user configuration (useful to collaborate) in a `.gitconfig` file placed in your workspace folder :
+```
+[user]
+    name = John Doe
+    email = john.doe@mail.com
+```
+
 
 ### Use multiple version of NodeJS with [`nvm`](https://github.com/nvm-sh/nvm)
 
