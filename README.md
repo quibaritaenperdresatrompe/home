@@ -35,7 +35,14 @@ or
 sh -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)"
 ```
 
-Add aliases from https://github.com/quibaritaenperdresatrompe/dotfiles/aliases/ in `~/.oh-my-bash/custom/aliases/`.
+Add aliases from https://github.com/quibaritaenperdresatrompe/dotfiles/aliases/ in `~/.oh-my-bash/custom/aliases/` and load them in `~/.bashrc` :
+```
+aliases=(
+  general
+  git
+  productivity
+)
+```
 
 ### [Robbyrussell theme](https://github.com/denysdovhan/robbyrussell-node)
 
