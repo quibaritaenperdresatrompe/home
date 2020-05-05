@@ -85,6 +85,11 @@ Add this alias (in `~/.oh-my-bash/custom/aliases/productivity.aliases.sh`) :
 alias node=nodejs
 ```
 
+To use it globally add it to the PATH :
+```
+export PATH="$PATH:`yarn global bin`"
+```
+
 ### Edit with [Visual Studio Code](https://code.visualstudio.com/)
 
 Download [.deb package](https://code.visualstudio.com/Download).
