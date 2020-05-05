@@ -85,7 +85,7 @@ Add this alias (in `~/.oh-my-bash/custom/aliases/productivity.aliases.sh`) :
 alias node=nodejs
 ```
 
-To use it globally add it to the PATH, it's preferable in `~/.profile` file :
+To use it globally add it to the PATH :
 ```
 export PATH="$PATH:`yarn global bin`"
 ```
