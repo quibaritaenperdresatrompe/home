@@ -47,7 +47,7 @@ npm install -g robbyrussell
 
 ## Development
 
-### Versioning with [Git](https://git-scm.com/)
+### Version your code with [Git](https://git-scm.com/)
 
 ```
 apt-get install git
@@ -85,6 +85,12 @@ Add this alias (in `~/.oh-my-bash/custom/aliases/productivity.aliases.sh`) :
 alias node=nodejs
 ```
 
-### Editing with [Visual Studio Code](https://code.visualstudio.com/)
+### Edit with [Visual Studio Code](https://code.visualstudio.com/)
 
 Download [.deb package](https://code.visualstudio.com/Download).
+
+### Create nice commit messages with [`git-cz`](https://www.npmjs.com/package/git-cz)
+
+```
+yarn global add git-cz
+```
