@@ -63,6 +63,24 @@ Install it by running :
 apt-get install git
 ```
 
+Add global configuration in a `.gitconfig` file in your home :
+```
+[rerere]
+enabled = true
+
+[includeIf "gitdir:~/workspace/"]
+path = ~/workspace/.gitconfig
+```
+n.b. is it possible to make cohexist multiple configurations by splitting workspace into multiple sub-workspaces as follow :
+```
+[includeIf "gitdir:~/workspace/@nasa"]
+path = ~/workspace/@nasa/.gitconfig
+
+[includeIf "gitdir:~/workspace/@facebook"]
+path = ~/workspace/@facebook/.gitconfig
+```
+
+
 Add your user configuration (useful to collaborate) in a `.gitconfig` file placed in your workspace folder :
 ```
 [user]
